@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: regex match
+# key: rm
+# --
+(regexp-match*
+(regexp (format "\\~a" c))
+str)

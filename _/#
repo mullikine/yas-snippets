@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: #
+# key: #
+# --
+#!${1:$$(e/chomp (bp xargs get-interpreter-for-file.sh (buffer-file-name)))}

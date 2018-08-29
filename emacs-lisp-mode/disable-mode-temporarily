@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: disable-mode-temporarily
+# key: um
+# --
+(let ((my/lisp-mode nil))
+  (execute-kbd-macro (kbd "e")))

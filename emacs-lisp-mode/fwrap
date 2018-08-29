@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: macro
+# key: fwrap
+# --
+(defmacro qtv (&rest args)
+"Function wrapper"
+`(tv ,@body))

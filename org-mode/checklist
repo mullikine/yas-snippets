@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: checklist
+# key: cl
+# --
++ TODO Checklist [/]
+  - [-] initialise sockaddr_in{} using memset(3)

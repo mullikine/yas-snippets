@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: macro
+# key: dm
+# --
+(defmacro my/nil (body)
+"Do not return anything."
+;; body
+`(progn (,@body) nil))

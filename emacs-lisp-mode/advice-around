@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: advice-around
+# key: ada
+# --
+(defadvice org-end-of-line (around my-org-eol-around activate)
+(interactive)
+(let ((visual-line-mode nil))
+(if (interactive-p)
+(call-interactively (ad-get-orig-definition 'org-end-of-line))
+ad-do-it)))
