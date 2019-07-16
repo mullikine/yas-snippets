@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tree
+# key: tree
+# --
+data Tree a = Empty | Leaf a | Node (Tree a) a (Tree a)

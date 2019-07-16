@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: linkid
+# key: lid
+# --
+:PROPERTIES:
+:CUSTOM_ID: server-config-yaml
+:END:

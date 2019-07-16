@@ -1,7 +1,7 @@
-# -*- mode: snippet -*-
-# name: regex match
-# key: rm
+# key: regex
+# name: regex
 # --
-(regexp-match*
-(regexp (format "\\~a" c))
-str)
+(regexp-match #rx"(c*)(a*)" "caat")
+(regexp-match #px"(c*)(a*)" "caat")
+(regexp-match #px"(c*)(a*)" "caat")
+(regexp-match #px"(c*)a*" "caat")

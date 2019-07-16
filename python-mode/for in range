@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: for in range
+# key: fir
+# --
+for i_text in range(len(textsprocessed)):

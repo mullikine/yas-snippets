@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: results-verbatim
+# key: results-verbatim
+# --
+#+BEGIN_SRC sh :results verbatim drawer
+  cat $HOME$MYGIT/mullikine/lexicon/codelingo/ast/gometalinter/src/build.sh | replace codelingo/lexicon mullikine/lexicon 
+#+END_SRC

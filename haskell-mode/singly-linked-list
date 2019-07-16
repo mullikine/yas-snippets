@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: singly-linked-list
+# key: sll
+# --
+data List a = Nil | Cons a (List a)

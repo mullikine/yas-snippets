@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: cat
+# key: cat
+# --
+import shanepy
+from shanepy import *
+cat("$DUMP/tmp/scratchcdFbGL.txt")

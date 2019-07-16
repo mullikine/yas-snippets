@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: footnote
+# key: fn
+# --
+tested[fn:$0]
+
+
+[fn:$0] See caveats.

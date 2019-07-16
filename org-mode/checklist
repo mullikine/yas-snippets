@@ -2,5 +2,5 @@
 # name: checklist
 # key: cl
 # --
-+ TODO Checklist [/]
-  - [-] initialise sockaddr_in{} using memset(3)
++ ${1:Checklist} [/]
+  - [-] ${0:first item}

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name:results-verbatim-only
+# key: rv
+# --
+:results verbatim drawer

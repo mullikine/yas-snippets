@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: arg0
+# key: a0
+# --
+sys.argv[0]

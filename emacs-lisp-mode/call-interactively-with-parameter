@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: call-interactively-with-parameter
+# key: cip
+# --
+(global-set-key (kbd "C-c o") (lm (call-interactively 'tmux-edit t (vector "v" "nh"))))

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: notableofcontents
+# key: notoc
+# --
+#+OPTIONS: toc:nil

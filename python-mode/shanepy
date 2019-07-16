@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: shanepy
+# key: spy
+# --
+import shanepy
+from shanepy import *

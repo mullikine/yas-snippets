@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: interactive
+# key: interactive
+# --
+(defun clpl-rewrite (lang bundletenet platform)
+"Run rewrites on the pipeline for a given bundle tenet and lang"
+(interactive (list
+(read-string "lang extension:")
+(read-string "bundle/tenet:")
+(read-string "platform:")))
+
+(if (not platform)
+(setq platform "staging"))
+
+(if (not lang)
+(setq lang "go"))
+
+(if (not bundletenet)
+(setq bundletenet "code-review-comments/declare-empty-slice")))

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: embed ptpython
+# key: embed
+# --
+from ptpython.repl import embed
+embed(globals(), locals())

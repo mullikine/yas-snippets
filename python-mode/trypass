@@ -1,0 +1,7 @@
+# key: tp
+# name: trypass
+# --
+try:
+  ${0:pass}
+except:
+  pass
