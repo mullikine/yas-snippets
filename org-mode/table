@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: table
+# group: mine
 # key: ta
 # --
 #+CAPTION: Constants

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: html
+# group: mine
 # key: html
 # --
 #+BEGIN_EXPORT html

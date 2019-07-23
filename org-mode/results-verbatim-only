@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name:results-verbatim-only
+# group: mine
 # key: rv
 # --
 :results verbatim drawer

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: footnote
+# group: mine
 # key: fn
 # --
 tested[fn:$0]
