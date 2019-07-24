@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
-# name: macro
+# name: define-macro
+# group: define
 # key: dm
 # --
 (defmacro my/nil (body)

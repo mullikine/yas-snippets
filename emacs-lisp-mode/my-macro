@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: my-macro
-# key: mm
+# name: define-macro-my-with
+# group: define
+# key: dm-my-with
 # --
 (defmacro my/with (package &rest body)
   "This attempts to run code dependent on a package and otherwise doesn't run the code."

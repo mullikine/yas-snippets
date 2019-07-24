@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: macro
-# key: fwrap
+# name: define-macro-function-wrapper
+# group: define
+# key: dk-fw
 # --
 (defmacro qtv (&rest args)
 "Function wrapper"

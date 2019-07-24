@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: cldefun
-# key: cld
+# name: define-function-common-lisp
+# group: define
+# key: dfcl
 # --
 (cl-defun sh/cut (stdin &key d &key f)
 (if (not d)
