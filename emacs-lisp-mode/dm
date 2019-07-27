@@ -3,7 +3,7 @@
 # group: define
 # key: dm
 # --
-(defmacro my/nil (body)
+(defmacro my/nil ($rest body)
 "Do not return anything."
 ;; body
 `(progn (,@body) nil))

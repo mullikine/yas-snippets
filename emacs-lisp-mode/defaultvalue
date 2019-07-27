@@ -2,4 +2,4 @@
 # name: defaultvalue
 # key: dv
 # --
-(setq arg (or arg 1))
+(setq ${1:arg} (or $1 ${2:1}))

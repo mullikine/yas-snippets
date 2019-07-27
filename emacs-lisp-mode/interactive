@@ -16,4 +16,10 @@
 (setq lang "go"))
 
 (if (not bundletenet)
-(setq bundletenet "code-review-comments/declare-empty-slice")))
+(setq bundletenet "code-review-comments/declare-empty-slice"))
+
+
+(when (called-interactively-p 'any)
+         (message "Interactive!")
+         'foo-called-interactively))
+)

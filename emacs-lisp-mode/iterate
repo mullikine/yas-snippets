@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
-# name: iterate
+# name: iterate-over
+# group: for
 # key: i
 # --
 (cl-loop for i in (split-string (glob "/*") "\n") collect i)
