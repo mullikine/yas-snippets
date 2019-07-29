@@ -1,10 +1,9 @@
 # -*- mode: snippet -*-
-# name: advice-around
+# name: around-advice
+# group: advice
 # key: ada
 # --
-(defadvice org-end-of-line (around my-org-eol-around activate)
-(interactive)
-(let ((visual-line-mode nil))
-(if (interactive-p)
-(call-interactively (ad-get-orig-definition 'org-end-of-line))
-ad-do-it)))
+(defadvice ${1:advised-function-name} (around my-ad-$1 activate)
+  (interactive)
+  $0
+  ad-do-it)

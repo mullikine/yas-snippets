@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: before-advice
+# group: advice
+# key: before
+# --
+(defun wrap2 (orig-fun &rest args)
+  (message "shr-copy-url called with args %S" args)
+  (let ((res (apply orig-fun args)))
+    (message "shr-copy-url returned %S" res)
+    res))
+(advice-add 'shr-copy-url :around #'wrap2)

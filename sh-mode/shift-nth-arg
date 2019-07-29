@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: shift-nth-arg
+# group: args
+# key: shiftn
+# --
+args=("\$@"); unset "args[\$(( ${0:i} - 1 ))]"; set -- "\${args[@]}"

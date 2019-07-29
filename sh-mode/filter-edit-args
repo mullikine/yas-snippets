@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: filter-edit-args
-# key: fa
+# name: edit-args-examples
+# group: args
+# key: argedit
 # --
 #!/bin/bash
 export TTY
@@ -34,3 +35,17 @@ cmd "$@" | awk 1
 
 # Copy c
 cc=("${c[@]}")
+
+# Set the arguments to this range
+set -- {1..10};
+
+args=("$@"); unset 'args[4]'
+
+printf '<%s>' "${args[@]}"
+echo
+printf '<%s>' "${@}"
+
+# restore
+set -- "${args[@]}"
+echo
+printf '<%s>' "${@}"
