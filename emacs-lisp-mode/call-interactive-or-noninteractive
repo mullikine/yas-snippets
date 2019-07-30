@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: call-interactive-or-noninteractive
+# name: call-any-function-interactive-or-noninteractive
 # group: interactive
 # key: call
 # --
