@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: interact-ipy
+# group: interactive
+# key: ipy
+# --
+from shanepy import *
+sys.stdin = open('/dev/tty') # not idempotent
+globals().update(locals())
+from IPython import embed; embed()

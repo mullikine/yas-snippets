@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
 # name: cat
+# group: basic
 # key: cat
 # --
-import shanepy
-from shanepy import *
-cat("$DUMP/tmp/scratchcdFbGL.txt")
+import sys
+data = sys.stdin.read()
+sys.stdin = open('/dev/tty') # not idempotent

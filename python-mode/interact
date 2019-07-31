@@ -4,7 +4,10 @@
 # key: i
 # --
 from shanepy import *
+sys.stdin = open('/dev/tty') # not idempotent
 import code; code.interact(local=locals())
 import code; code.interact(local=dict(globals(), **locals()))
+# globals().update(locals())
+# from IPython import embed; embed()
 import bpython; bpython.embed(locals_=dict(globals(), **locals()))
 from ptpython.repl import embed; embed(globals(), locals())

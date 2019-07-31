@@ -3,9 +3,10 @@
 # group: advice
 # key: before
 # --
-(defun wrap2 (orig-fun &rest args)
-  (message "shr-copy-url called with args %S" args)
-  (let ((res (apply orig-fun args)))
-    (message "shr-copy-url returned %S" res)
-    res))
-(advice-add 'shr-copy-url :around #'wrap2)
+;; Same arguments as original function ($2) to advise
+(defun sh/ad-${1:advisename}-${2:message} (FORMAT-STRING &rest args)
+  (setq FORMAT-STRING "hi")
+  $0
+  )
+
+(advice-add '$2 :before 'sh/ad-$1-$2)
