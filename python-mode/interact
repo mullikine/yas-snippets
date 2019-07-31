@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: interact
+# group: interactive
+# key: i
+# --
+from shanepy import *
+import code; code.interact(local=locals())
+import code; code.interact(local=dict(globals(), **locals()))
+import bpython; bpython.embed(locals_=dict(globals(), **locals()))
+from ptpython.repl import embed; embed(globals(), locals())
