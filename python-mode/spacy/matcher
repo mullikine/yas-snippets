@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: spacy/matcher
+# group: spacy
+# key: sy/matcher
+# --
+from spacy.matcher import Matcher
+matcher = Matcher(nlp.vocab)
+for doc in matcher.pipe(docs, batch_size=50):
+    pass
