@@ -4,5 +4,5 @@
 # key: pti
 # --
 from shanepy import *
-sys.stdin = open('/dev/tty') # not idempotent
+# sys.stdin = open('/dev/tty') # not idempotent. only works for import code
 from ptpython.repl import embed; embed(globals(), locals())

@@ -4,7 +4,7 @@
 # key: i
 # --
 from shanepy import *
-sys.stdin = open('/dev/tty') # not idempotent
+sys.stdin = open('/dev/tty') # not idempotent. only works for import code
 import code; code.interact(local=locals())
 import code; code.interact(local=dict(globals(), **locals()))
 # globals().update(locals())
