@@ -6,4 +6,4 @@
 from shanepy import *
 # sys.stdin = open('/dev/tty') # not idempotent. only works for import code
 globals().update(locals())
-from IPython import embed; embed()
+os.environ["EDITOR"] = "sp"; from IPython import embed; embed()

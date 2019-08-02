@@ -5,4 +5,4 @@
 # --
 from shanepy import *
 # sys.stdin = open('/dev/tty') # not idempotent. only works for import code
-from ptpython.repl import embed; embed(globals(), locals())
+os.environ["EDITOR"] = "sp"; from ptpython.repl import embed; embed(globals(), locals())

@@ -4,3 +4,6 @@
 # key: sort
 # --
 schars = sorted(set(chars))
+
+colors = ["Goldenrod", "purple", "Salmon", "turquoise", "cyan"]
+sorted(colors, key=lambda s: s.casefold())
