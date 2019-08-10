@@ -17,3 +17,7 @@
          for y = (* x x)
          until (>= y 729)
          finally return (list x (= y 729)))
+
+;; seq is my own
+(dolist (n (seq 1 10))
+  (message (str n)))
