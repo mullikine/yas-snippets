@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: env
+# group: nix
+# key: env
+# --
+os.environ["${0:HOME}"]
