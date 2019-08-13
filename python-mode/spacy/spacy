@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: spacy/span
+# group: spacy
+# key: sy/span
+# --
+# Create a Span object from the slice doc[start : end].
+span = doc[${1:start}:${2:end}]
+span = Span(doc, $1, $2, label="${3:PERSON}")
+$0
