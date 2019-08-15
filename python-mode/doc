@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: doc
+# group: sot
+# key: d
+# --
+"""$0"""

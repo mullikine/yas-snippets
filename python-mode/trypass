@@ -1,5 +1,6 @@
-# key: tp
 # name: trypass
+# group: sot
+# key: tp
 # --
 try:
   ${0:pass}
