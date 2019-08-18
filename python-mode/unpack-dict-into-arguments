@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: unpack-dict-into-arguments
+# group: unpack
+# key: **
+# --
+d = {'a': 1, 'b': 2}
+def foo(a, b):
+    pass
+foo(**d)
