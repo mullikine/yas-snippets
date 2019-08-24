@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: spacy/stringstore
 # group: spacy
-# key: sy/ss
+# key: sy_ss
 # --
 from spacy.strings import StringStore
 stringstore = StringStore([u"apple", u"orange"])

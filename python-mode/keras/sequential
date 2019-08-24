@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: keras/sequential
 # group: keras
-# key: k/seq
+# key: k_seq
 # --
 from keras.models import Sequential
 from keras.layers import Dense, Activation

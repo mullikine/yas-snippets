@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: spacy/span
 # group: spacy
-# key: sy/span
+# key: sy_span
 # --
 # Create a Span object from the slice doc[start : end].
 # start and end are the nth token (not char)

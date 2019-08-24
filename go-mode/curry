@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: curry
 # group: fp
-# key: fp/c
+# key: fp_c
 # --
 // this is a higher-order-function that returns a function
 func add(x int) func(y int) int {

@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: spacy/vectors
 # group: spacy
-# key: sy/v
+# key: sy_v
 # --
 from spacy.vectors import Vectors
 

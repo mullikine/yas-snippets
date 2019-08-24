@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: spacy/matcher
 # group: spacy
-# key: sy/matcher
+# key: sy_matcher
 # --
 from spacy.matcher import Matcher
 matcher = Matcher(nlp.vocab)

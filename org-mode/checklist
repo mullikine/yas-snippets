@@ -4,4 +4,4 @@
 # key: cl
 # --
 + ${1:Checklist} [/]
-  - [-] ${0:first item}                 
+  - [-] ${0:first item}

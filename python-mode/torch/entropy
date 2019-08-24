@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: torch/entropy
 # group: pytorch
-# key: t/entropy
+# key: t_entropy
 # --
 def entropy(p):
     """ Compute the entropy of a probability distribution """

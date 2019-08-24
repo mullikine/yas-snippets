@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: higher-order-function
 # group: fp
-# key: fp/hof
+# key: fp_hof
 # --
 // The higher-order-function takes an array and a function as arguments
 func mapForEach(arr []string, fn func(it string) int) []int {
