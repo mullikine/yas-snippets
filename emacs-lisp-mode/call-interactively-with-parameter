@@ -3,3 +3,4 @@
 # key: cip
 # --
 (global-set-key (kbd "C-c o") (lm (call-interactively 'tmux-edit t (vector "v" "nh"))))
+(define-key my-mode-map (kbd "M-q E") (lm (setq current-prefix-arg '(1)) (call-interactively 'my-revert)))
