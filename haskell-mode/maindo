@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
-# name: do
+# name: maindo
+# group: main
 # key: maindo
 # --
 main :: IO ()
