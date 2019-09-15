@@ -4,5 +4,6 @@
 # key: i
 # --
 import shanepy
+import shanepy as spy
 from shanepy import *
-os.environ["EDITOR"] = "sp"; from ptpython.repl import embed; embed(globals(), locals())
+myembed(globals(), locals())

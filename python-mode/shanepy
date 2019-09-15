@@ -3,4 +3,5 @@
 # key: spy
 # --
 import shanepy
+import shanepy as spy
 from shanepy import *
