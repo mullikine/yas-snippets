@@ -3,5 +3,6 @@
 # group: interactive
 # key: i
 # --
+import shanepy
 from shanepy import *
 os.environ["EDITOR"] = "sp"; from ptpython.repl import embed; embed(globals(), locals())
