@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: hugo-header
+# group: hugo
+# key: hugo
+# --
+#+HUGO_BASE_DIR: /home/shane/dump/home/shane/notes/ws/blog/blog
+#+HUGO_SECTION: ./posts
+
+#+TITLE: ${1:Title of Post}
+#+AUTHOR: Shane Mulligan
+$0
