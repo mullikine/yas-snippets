@@ -7,5 +7,6 @@
 #+HUGO_SECTION: ./posts
 
 #+TITLE: ${1:Title of Post}
+#+DATE: <`(format-time-string "%Y-%m-%d")`>
 #+AUTHOR: Shane Mulligan
 $0
