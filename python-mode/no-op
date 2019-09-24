@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: doc
+# name: no-op
 # group: syntax
-# key: doc
+# key: nop
 # --
-"""$0"""
+pass
