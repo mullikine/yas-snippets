@@ -9,4 +9,5 @@
 #+TITLE: ${1:Title of Post}
 #+DATE: <`(format-time-string "%Y-%m-%d")`>
 #+AUTHOR: Shane Mulligan
+#+KEYWORDS: ${2:GPT-2}
 $0
