@@ -1,5 +1,8 @@
 # -*- mode: snippet -*-
 # name: binary-tree
-# key: binarytree
+# group: data structures
+# key: 2tre
 # --
-data List a = Nil | Cons a (List a)
+data Tree a
+  = Leaf
+  | Node a (Tree a) (Tree a)

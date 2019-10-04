@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
-# name: tree
-# key: tree
+# name: binary-tree2
+# group: data structures
+# key: 2tre
 # --
 data Tree a = Empty | Leaf a | Node (Tree a) a (Tree a)
