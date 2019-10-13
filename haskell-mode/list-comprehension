@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: list-comprehension
-# group: syntax
+# name: list comprehension
+# group: list
 # key: lc
 # --
 -- Take a list of numbers and we filtered them by the predicate
