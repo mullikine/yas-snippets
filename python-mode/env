@@ -4,3 +4,4 @@
 # key: env
 # --
 os.environ["${0:HOME}"]
+API_BASE_URL = os.environ["API_URL"]
