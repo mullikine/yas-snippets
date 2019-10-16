@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: asciinema
+# group: asciinema
+# key: asciinema
+# --
+#+BEGIN_EXPORT html
+<a href="https://asciinema.org/a/${1:Mmi1niX76Llg6JigBGFg518LV}" target="_blank"><img src="https://asciinema.org/a/$1.svg" /></a>
+#+END_EXPORT
+$0
