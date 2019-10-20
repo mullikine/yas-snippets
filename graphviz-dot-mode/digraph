@@ -1,23 +1,8 @@
 # -*- mode: snippet -*-
 # name: digraph
+# group: boilerplate
 # key: dg
 # --
-digraph g{
-aout -> co
-aout -> bo
-aout -> ao
-co -> ccpp
-bo -> bcpp
-ao -> acpp
-ccpp -> ch
-bcpp -> bh
-acpp -> ah
-aout -> maino
-maino -> maincpp
-maincpp -> ch
-maincpp -> bh
-ch -> ah
-bh -> ah
-aout [label="a.out",shape=box,style=rounded];
-co [label="C.o",shape=box,style=rounded];
+digraph Q {
+`yas-selected-text`${0:node1 -> node2}
 }
