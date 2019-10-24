@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: texify
+# group: tex
+# key: tex
+# --
+\${\displaystyle `yas-selected-text`}\$
