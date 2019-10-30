@@ -17,4 +17,5 @@
 #+DATE: <`(format-time-string "%Y-%m-%d")`>
 #+AUTHOR: Shane Mulligan
 #+KEYWORDS: ${2:GPT-2}
+# #+TAGS: $2:
 $0
