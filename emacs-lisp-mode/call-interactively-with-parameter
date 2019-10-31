@@ -4,3 +4,10 @@
 # --
 (global-set-key (kbd "C-c o") (lm (call-interactively 'tmux-edit t (vector "v" "nh"))))
 (define-key my-mode-map (kbd "M-q E") (lm (setq current-prefix-arg '(1)) (call-interactively 'my-revert)))
+
+(defun quoted-insert-nooctal (args)
+  (interactive "P")
+  (let* ((overwrite-mode 'overwrite-mode-textual))
+
+    (setq current-prefix-arg args)
+    (call-interactively 'quoted-insert)))
