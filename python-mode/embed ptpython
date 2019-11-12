@@ -2,5 +2,7 @@
 # name: embed ptpython
 # key: embed
 # --
-from ptpython.repl import embed
-embed(globals(), locals())
+# from ptpython.repl import embed
+# embed(globals(), locals())
+from shanepy import *
+myembed(globals(), locals())
