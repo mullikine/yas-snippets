@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: list open file descriptors
+# group: pid
+# key: lsofd
+# --
+ls -la /proc/$$/fd > /tmp/ofd.txt
