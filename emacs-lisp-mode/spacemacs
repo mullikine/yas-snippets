@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: spacemacs
 # group: daemon
-# key: ifpc
+# key: ifsp
 # --
 (if (cl-search "SPACEMACS" my-daemon-name)
 `yas-selected-text`
