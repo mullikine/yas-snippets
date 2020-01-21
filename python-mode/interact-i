@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: interact
 # group: interactive
-# key: int
+# key: i
 # --
 # import code; code.interact(local=locals())
 # from ptpython.repl import embed
