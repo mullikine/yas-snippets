@@ -1,7 +1,10 @@
 # -*- mode: snippet -*-
 # name: main
-# group: common
+# group: main
 # key: main
 # --
-if __name__ == '__main__':
+def main():
     $0
+
+if __name__ == "__main__":
+    main()
