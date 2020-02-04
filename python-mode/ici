@@ -3,13 +3,5 @@
 # group: interactive
 # key: ici
 # --
-import shanepy
-import shanepy as spy
 from shanepy import *
-sys.stdin = open('/dev/tty') # not idempotent
-import code; code.interact(local=locals())
-import code; code.interact(local=dict(globals(), **locals()))
-# globals().update(locals())
-# from IPython import embed; embed()
-os.environ["EDITOR"] = "sp"; import bpython; bpython.embed(locals_=dict(globals(), **locals()))
-os.environ["EDITOR"] = "sp"; from ptpython.repl import embed; embed(globals(), locals())
+myembed(globals(), locals())
