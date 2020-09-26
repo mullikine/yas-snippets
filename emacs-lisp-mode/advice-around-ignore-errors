@@ -1,12 +1,11 @@
 # -*- mode: snippet -*-
-# name: around-advice
+# name: around-advice-ignore-errors
 # group: advice
-# key: ada
+# key: adi
 # --
 ;; nadvice - proc is the original function, passed in. do not modify
 (defun ${1:advised-function-name}-around-advice (proc &rest args)
-  (message "$1 called with args %S" args)
-  (let ((res (apply proc args)))
-    (message "$1 returned %S" res)
-    res))
+  (ignore-errors
+    (let ((res (apply proc args)))
+      res)))
 (advice-add '$1 :around #'$1-around-advice)
