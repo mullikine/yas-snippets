@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # name: env
-# group: nix
+# group: unix
 # key: env
 # --
-os.environ["${0:HOME}"]
-API_BASE_URL = os.environ["API_URL"]
+API_BASE_URL = os.environ.get("API_URL")
