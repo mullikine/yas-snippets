@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: last-arg
-# group: common
-# key: la
+# name: lastarg
+# group: 
+# key: lastarg
 # --
-last_arg="${@: -1}"
+last_arg="\${@: -1}"

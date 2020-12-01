@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: shift-nth-arg
-# group: args
-# key: shiftn
+# name: fn
+# group: 
+# key: fn
 # --
-args=("\$@"); unset "args[\$(( ${0:i} - 1 ))]"; set -- "\${args[@]}"
+bn="\$(basename "\$fp")"

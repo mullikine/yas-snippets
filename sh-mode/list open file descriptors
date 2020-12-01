@@ -1,6 +1,19 @@
 # -*- mode: snippet -*-
-# name: list open file descriptors
-# group: pid
-# key: lsofd
+# name: opt
+# group: 
+# key: opt
 # --
-ls -la /proc/$$/fd > /tmp/ofd.txt
+while [ \$# -gt 0 ]
+do opt="\$1"
+case "\$opt" in
+"") { shift; }; ;;
+-n) {
+window_name="\$2"
+shift
+shift
+}
+;;
+
+*) break;
+esac
+done
