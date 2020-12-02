@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: cloud
-# group: 
+# group: deployment
 # key: cloud
 # --
 cloud {
