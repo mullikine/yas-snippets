@@ -2,6 +2,7 @@
 # name: prompt
 # group: prompt-engineering
 # key: prompt
+# expand-env: ((yas-indent-line 'fixed))
 # --
 title: "${1:title}"
 prompt: |+
