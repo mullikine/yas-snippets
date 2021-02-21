@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: ds
-# key: ds
+# name: dataset
+# key: imds
 # --
 import dataset as ds
 

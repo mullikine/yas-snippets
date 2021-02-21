@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
-# name: TupleSections
-# key: xts
+# name: let
+# group: layout
+# key: let
 # --
-{-# LANGUAGE TupleSections #-}
-
-main = print $ map (1, "hello", 6.5,, [5, 5, 6, 7]) [Just (), Nothing]
+let {s1 = (x^2 + y^2); s2 = (x+y) ^ 2;} in
