@@ -12,7 +12,7 @@ prompt: |+
 engine: "davinci"
 temperature: 0.3
 max-tokens: 60
-top-p: 1
+top-p: 1.0
 frequency-penalty: 0.5
 # If I make presence-penalty 0 then it will get very terse
 presence-penalty: 0.0
