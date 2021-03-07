@@ -5,6 +5,7 @@
 # expand-env: ((yas-indent-line 'fixed))
 # --
 title: "${1:title}"
+doc: ""
 prompt: |+
     ${2:contents}
     
