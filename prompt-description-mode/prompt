@@ -33,6 +33,7 @@ vars:
 examples:
 - "boysenberries"
 - "strawberries"
+chomp-start: off
 external: ""
 conversation-mode: no
 filter: no
