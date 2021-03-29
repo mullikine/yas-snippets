@@ -25,10 +25,12 @@ best-of: 1
 stop-sequences:
 # - "\\n"
 # - "\\n\\n"
-- "#"
+- "###"
 inject-start-text: yes
 inject-restart-text: yes
 show-probabilities: off
+# Cache the function by default when running the prompt function
+cache: on
 vars:
 - "former"
 - "latter"
@@ -44,3 +46,6 @@ filter: no
 # This allows a full response for answers which may need n*max-tokens to reach the stop-sequence.
 stitch-max: 0
 needs-work: no
+# Prompt function aliases
+# aliases:
+# - "asktutor"
