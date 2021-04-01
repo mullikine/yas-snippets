@@ -5,7 +5,10 @@
 # expand-env: ((yas-indent-line 'fixed))
 # --
 title: "${1:title}"
-doc: ""
+doc: "Given ... ${1:title}"
+# aims: |+
+# - More abstractive rewording
+prompt-version: 1
 prompt: |+
     ${2:contents}
     
@@ -44,6 +47,10 @@ examples:
 # pen-defaults:
 # - "(detect-language)"
 # - "(pen-preceding-text)"
+# These are elisp String->String functions and run from pen.el
+# It probably runs earlier than the preprocessors shell scripts
+pen-preprocessors:
+- "pen-pf-correct-grammar"
 # # A preprocessor filters the var at that position
 # # This may be useful to distinguish a block of text, for example
 # preprocessors:
