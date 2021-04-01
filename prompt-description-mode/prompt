@@ -38,6 +38,12 @@ vars:
 examples:
 - "boysenberries"
 - "strawberries"
+# completion: on
+# # default values for pen -- evaled
+# # This is useful for completion commands.
+# pen-defaults:
+# - "(detect-language)"
+# - "(pen-preceding-text)"
 chomp-start: on
 chomp-end: off
 prefer-external: on
