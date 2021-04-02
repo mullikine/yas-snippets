@@ -13,7 +13,11 @@ prompt: |+
     ${2:contents}
     
     <1> are like <2> in that
+# myrc will select the completion engine using my config.
+# This may be openi-complete or something else
 engine: "myrc"
+# if nothing is selected in myrc, then fall back to this preferred
+# openai engine.
 preferred-openai-engine: "davinci"
 # 0.0 = /r/hadastroke
 # 1.0 = /r/iamveryrandom
