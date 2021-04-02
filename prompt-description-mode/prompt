@@ -5,6 +5,7 @@
 # expand-env: ((yas-indent-line 'fixed))
 # --
 title: "${1:title}"
+# future-titles: ""
 doc: "Given ... ${1:title}"
 # aims: |+
 # - More abstractive rewording
@@ -45,6 +46,7 @@ vars:
 examples:
 - "boysenberries"
 - "strawberries"
+# Completion is for generating a company-mode completion function
 # completion: on
 # # default values for pen -- evaled
 # # This is useful for completion commands.
@@ -56,6 +58,7 @@ examples:
 pen-preprocessors:
 - "pen-pf-correct-grammar"
 # # A preprocessor filters the var at that position
+# the current implementation of preprocessors is kinda slow and will add ~100ml per variable
 # # This may be useful to distinguish a block of text, for example
 # preprocessors:
 # - "sed 's/^/- /"
