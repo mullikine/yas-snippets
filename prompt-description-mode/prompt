@@ -12,6 +12,9 @@ doc: "Given ... ${1:title}"
 # aims: |+
 # - More abstractive rewording
 prompt-version: 1
+# <:pp> defines a point where the following
+# text is concatenated before the postprocessor
+# is run.
 prompt: |+
     ${2:contents}
     
