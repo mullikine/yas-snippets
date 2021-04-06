@@ -15,6 +15,7 @@ prompt-version: 1
 # <:pp> defines a point where the following
 # text is concatenated before the postprocessor
 # is run.
+# <1>, <2> etc. are where variables are substituted
 prompt: |+
     ${2:contents}
     
