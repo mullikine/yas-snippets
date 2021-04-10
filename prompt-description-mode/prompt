@@ -21,7 +21,8 @@ prompt: |+
     
     <1> are like <2> in that
 problems:
-- "Struggles with the latter columns."
+# Put problems directly after the prompt because the prompt is a multiline string.
+# - "Struggles with the latter columns."
 # # Additional transformation of prompt after the template
 # prompt-filter: "sed -z 's/\\s\\+$//'"
 # # Trailing whitespace is always removed
@@ -52,9 +53,9 @@ stop-sequences:
 # 2 hashes is more reliable as a stop sequence because
 # sometimes the generation morphs from ### to ##
 - "##"
-inject-start-text: yes
-inject-restart-text: yes
-show-probabilities: off
+# inject-start-text: yes
+# inject-restart-text: yes
+# show-probabilities: off
 # Cache the function by default when running the prompt function
 cache: on
 vars:
