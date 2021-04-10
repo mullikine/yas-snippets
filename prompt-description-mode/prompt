@@ -63,6 +63,7 @@ vars:
 examples:
 - "boysenberries"
 - "strawberries"
+# test-output: "both are types of berry"
 # Completion is for generating a company-mode completion function
 # completion: on
 # # default values for pen -- evaled
