@@ -4,6 +4,7 @@
 # key: pr
 # expand-env: ((yas-indent-line 'fixed))
 # --
+in-development: yes
 title: "${1:title}"
 # future-titles: ""
 # aims: |+
