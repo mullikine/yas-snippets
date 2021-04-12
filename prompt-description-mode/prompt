@@ -2,7 +2,7 @@
 # name: prompt
 # group: prompt-engineering
 # key: pr
-# expand-env: ((yas-indent-line 'fixed)
+# expand-env: ((yas-indent-line 'fixed))
 # --
 in-development: yes
 title: "${1:title}"
