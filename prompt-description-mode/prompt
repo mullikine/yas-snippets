@@ -2,7 +2,7 @@
 # name: prompt
 # group: prompt-engineering
 # key: pr
-# expand-env: ((yas-indent-line 'fixed))
+# expand-env: ((yas-indent-line 'fixed)
 # --
 in-development: yes
 title: "${1:title}"
@@ -122,7 +122,6 @@ n-test-runs: 5
 # Prompt function aliases
 # aliases:
 # - "asktutor"
-# postprocessor: "sed 's/- //' | uniqnosort"
 # # Run it n times and combine the output
 # n-collate: 10
 # This for combining prompts:
@@ -133,6 +132,7 @@ n-test-runs: 5
 # <g> is the existing generation
 # <1> is a variable
 continuation-function: "list-of <1> <g>"
+# \s must be escaped here or it breaks yaml
 # postprocessor: "sed 's/\\s\\+/ /g' | s join ' '"
 # Optional extra command to run after the postprocessor
 prettifier: "tpp"
