@@ -133,3 +133,6 @@ n-test-runs: 5
 # <g> is the existing generation
 # <1> is a variable
 continuation-function: "list-of <1> <g>"
+# postprocessor: "sed 's/\\s\\+/ /g' | s join ' '"
+# Optional extra command to run after the postprocessor
+prettifier: "tpp"
