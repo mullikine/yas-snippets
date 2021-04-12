@@ -128,3 +128,8 @@ n-test-runs: 5
 # This for combining prompts:
 # It might be, for example, summarize, or uniqnosort
 # collation-postprocessor: "uniqnosort"
+# examplary continuation function
+# prompts are not stitched together / composed but examplary functions are
+# <g> is the existing generation
+# <1> is a variable
+continuation-function: "list-of <1> <g>"
