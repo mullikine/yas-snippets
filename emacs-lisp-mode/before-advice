@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: before-advice
 # group: advice
-# key: before
+# key: adb
 # --
 ;; Same arguments as original function ($2) to advise
 (defun sh/ad-${1:advisename}-${2:message} (FORMAT-STRING &rest args)

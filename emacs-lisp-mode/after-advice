@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: after-advice
 # group: advice
-# key: after
+# key: adaf
 # --
 (advice-add
  'wiki-summary
