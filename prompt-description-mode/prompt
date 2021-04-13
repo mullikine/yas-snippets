@@ -8,8 +8,6 @@ in-development: yes
 title: "${1:title}"
 todo:
 design-patterns:
-issues:
-# - "It appears to not have a large effective window"
 # future-titles: ""
 # aims: |+
 # - More abstractive rewording
@@ -31,6 +29,8 @@ prompt: |+
 problems:
 # Put problems directly after the prompt because the prompt is a multiline string.
 # - "Struggles with the latter columns."
+issues:
+# - "It appears to not have a large effective window"
 # # Additional transformation of prompt after the template
 # prompt-filter: "sed -z 's/\\s\\+$//'"
 # # Trailing whitespace is always removed
