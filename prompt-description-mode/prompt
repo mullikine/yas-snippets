@@ -135,8 +135,8 @@ n-test-runs: 5
 # prompts are not stitched together / composed but examplary functions are
 # <g> is the existing generation
 # <1> is a variable
-continuation-function: "list-of <1> <g>"
+# continuation-function: "list-of <1> <g>"
 # \s must be escaped here or it breaks yaml
 # postprocessor: "sed 's/\\s\\+/ /g' | s join ' '"
 # Optional extra command to run after the postprocessor
-prettifier: "tpp"
+# prettifier: "tpp"
