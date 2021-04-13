@@ -72,6 +72,7 @@ vars:
 examples:
 - "boysenberries"
 - "strawberries"
+# This is the test output after the postprocessor has run
 # test-output: "both are types of berry"
 # Completion is for generating a company-mode completion function
 # completion: on
