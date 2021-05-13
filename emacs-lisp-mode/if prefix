@@ -3,5 +3,4 @@
 # group: prefix
 # key: ifp
 # --
-(if (>= (prefix-numeric-value current-global-prefix-arg) 4))
-(if (>= (prefix-numeric-value current-prefix-arg) 4))
+(if (>= (prefix-numeric-value current-${1:global-}prefix-arg) 4))
