@@ -10,3 +10,4 @@
     (message "$1 returned %S" res)
     res))
 (advice-add '$1 :around #'$1-around-advice)
+(advice-remove '$1 #'$1-around-advice)
